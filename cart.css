@@ -1,0 +1,128 @@
+.cart-table h3{
+    background-color: #f2f4f5;
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
+th{
+    font-size: 26px;
+    font-weight: 300;
+    border-bottom: #f2f4f5 solid 1px;
+}
+/* item-list-table */
+.item-list-table tr{
+    border-bottom: #f2f4f5 solid 1px;
+}
+.item-list-table input[type="button"]{
+    border:none;
+    background-color: #0000;
+    font-size: 11px;
+    color: #0006;
+}
+th,td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-place-order{
+    text-align: center;
+}
+input[list="count"]{
+    width: 70px;
+    text-align: center;
+}
+.item-list-table input[type="button"]:first-child{
+    border-right: #0006 solid 1px;
+}
+.item-list-table small,.item-list-table p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.item-list-details div input{
+    padding-left: 0;
+}
+.item-list-details{
+    padding-top: 40px;
+}
+.item-list-image{
+    padding-bottom: 30px;
+}
+.order-summary th{
+    text-align: center;
+    font-weight: 400;
+}
+.order-summary td button{
+    font-size:22px;
+    padding: 7px 40px;
+    font-weight: 400;
+    margin: 20px auto;
+    text-align: center
+}
+.order-summary td{
+    padding: 15px 0;
+}
+/* related-items */
+.related-items{
+    padding: 100px 0;
+}
+.related-items div{
+    text-align: center;
+}
+@media only screen and (max-width: 1200px){
+    .cart-table h3{
+        padding: 15px 0 15px 0;
+    }
+    th{
+        font-size: 22px;
+    }
+    /* item-list-table */
+    .item-list-table input[type="button"]{
+        font-size: 9px;
+    }
+    input[list="count"]{
+        width: 70px;
+    }
+    .item-list-table small,.item-list-table p{
+        font-size: 14px;
+    }
+    .item-list-details{
+        padding-top: 40px;
+    }
+    .item-list-image{
+        padding-bottom: 30px;
+    }
+    .order-summary td button{
+        font-size:14px;
+    }
+    /* related items */
+    .related-items{
+        padding: 80px 0;
+    }
+}
+@media only screen and (max-width: 992px){
+    .order-summary td button{
+        padding: 5px 30px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .order-summary{
+        margin: 50px 0 0 50%;
+        transform: translateX(-50%);
+    }
+    .related-items {
+        padding: 50px 0;
+    }
+    .order-summary td button {
+        padding: 5px 26px;
+    }
+    input[list="count"] {
+    width: 50px;
+    }
+    .item-list-table small, .item-list-table p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 480px){
+    th, td {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
